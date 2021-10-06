@@ -1,0 +1,53 @@
+body {
+  font-style: normal;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 {
+  transition: 1s;
+  width: 400px;
+}
+
+h1:hover {
+  margin-left: 30px;
+}
+
+.navigation {
+  width: 1280px;
+  height: 30px;
+  color: #fff;
+}
+
+li {
+  transition: 1s;
+  display: inline;
+  border: 3px solid #000;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.reglog {
+  transition: 1s;
+  display: inline;
+  border: 3px solid #000;
+  border-radius: 3px;
+  padding: 10px;
+  float: right;
+}
+
+li:hover {
+  border-color: #fff;
+}
+
+.nav {
+  position: fixed;
+  width: 1480px;;
+  height: 50px;
+  margin-left: -15px;
+  background-color: #000;
+}
